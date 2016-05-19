@@ -20,7 +20,10 @@ html,body,.main{
 	position:relative;
 }
 
-
+p{white-space:nowrap;
+font-size:1rem;
+}
+	
 
 .left-img{padding:0;text-align:left}
 .left-img img{position:absolute;left:0;top:0;height:100%;z-index:1}
