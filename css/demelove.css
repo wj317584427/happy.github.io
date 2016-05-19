@@ -2,8 +2,12 @@
 	margin:0;
 	padding:0;
 	}
-body{line-height:1; font-size:1.5rem;word-break: normal}
-ol,ul{list-style:none}
+body{font-size:1.3rem;
+	color:#000;
+	position:absolute;
+	color:#fff;
+	text-shadow:0px 0px 5px #f0f,0px 0px 10px rgba(255,0,255,0.8),0px 0px 20px rgba(255,0,255,0.8),0px 0px 35px rgba(255,0,255,0.8),0px 0px 55px rgba(255,0,255,0.8);}
+
 html,body{width:100%;height:100%;}
 body{white-space:nowrap}
 html,body,.main{
@@ -20,9 +24,7 @@ html,body,.main{
 	position:relative;
 }
 
-p{white-space:nowrap;
-font-size:1rem;
-}
+
 	
 
 .left-img{padding:0;text-align:left}
@@ -40,24 +42,26 @@ font-size:1rem;
 .bottom-text img{height:80%}
 
 .page-2{background-color:#fefff1;padding:0;text-align:center; background:url(../img/iali63.jpg) no-repeat; background-size:100% 100%;}
-
+.page-2 img{position:absolute; bottom:10px; left:10px;}
 .page-2 p{height:10%;padding-top:5%;margin:0}
 
 .page-3{background-color:#c1b287;background:url(../img/iali35.jpg) no-repeat; background-size:100% 100%;}
 .page-4{background:url(../img/iali6.jpg) no-repeat; background-size:100% 100%;}
+.page-4 img{position:absolute; bottom:0px;}
 .page-5{background:url(../img/iali19.jpg) no-repeat; background-size:100% 100%;}
+.page-5 img{position:absolute; right:20px; bottom:50px;}
 .page-6{background:url(../img/iali29.jpg) no-repeat; background-size:100% 100%;}
-.page-6 h3{position:absolute;right:10%;top:45%;color:#bc195b}
+.page-6 p{position:absolute;right:10%;top:75%;color:#bc195b}
 .page-7{background:url(../img/iali60.jpg) no-repeat; background-size:100% 100%;}
-.page-7 h3{position:absolute;top:1em;left:50%;padding:0;margin-top:0;margin-left:-240px;z-index:1}
+.page-7 p{position:absolute;top:1em;left:10%;padding:0;z-index:1}
 .page-8{background:url(../img/iali51.jpg) no-repeat; background-size:100% 100%;}
-.page-8 h3{color:#eef;position:absolute;top:1em;left:50%;margin-left:-40%;padding:0;margin-top:0;width:10em;text-align:left}
-.page-8 h3 span{display:inline-block;width:1em;vertical-align:top}
+.page-8 p{color:#eef;position:absolute;top:1em;left:50%;margin-left:-40%;padding:0;margin-top:0;width:10em;text-align:left;z-index:1}
+.page-8 p span{display:inline-block;width:1em;vertical-align:top}
 .page-9{background:url(../img/iali5.jpg) no-repeat; background-size:100% 100%;}
 .page-10{background:url(../img/iali22_bg.jpg) no-repeat; background-size:100% 100%;}
 .page-11{background:url(../img/iali24.jpg) no-repeat; background-size:100% 100%;}
 .page-12{background:url(../img/iali25.jpg) no-repeat; background-size:100% 100%;}
-.page-12 h3{margin-left:1em;margin-right:1em}
+.page-12 p{margin-left:1em;margin-right:1em}
 .page-13{background:url(../img/iali64.jpg) no-repeat; background-size:100% 100%;}
 .page-14{background:url(../img/iali46.jpg) no-repeat; background-size:100% 100%;}
 .page-15{background:url(../img/iali45.jpg) no-repeat; background-size:100% 100%;}
@@ -65,7 +69,7 @@ font-size:1rem;
 .page-17{background:url(../img/iali16.jpg) no-repeat; background-size:100% 100%;}
 .page-18{background:url(../img/iali11.jpg) no-repeat; background-size:100% 100%;}
 .page-19{background:url(../img/iali75.jpg) no-repeat;background-size:100% 100%;}
-.page-19 h3{margin-bottom:2em}
+.page-19 p{margin-bottom:2em}
 .page-18 .text{margin-left:1em;margin-right:1em}
 .page-20{background:url(../img/iali9.jpg) no-repeat;background-size:100% 100%;}
 
@@ -77,48 +81,48 @@ font-size:1rem;
 .page-26{background:url(../img/iali10.gif) no-repeat;background-size:100% 100%;}
 
 .page-27{background:url(../img/iali67.jpg) no-repeat;background-size:100% 100%;}
-.page-27 h3{position:absolute;z-index:2;width:100%;text-align:center}
+.page-27 p{position:absolute;z-index:2;width:100%;text-align:center}
 .page-28{background:url(../img/iali40.jpg) no-repeat;background-size:100% 100%;}
 
-.page-28 h3{position:absolute;right:1em;bottom:360px;text-align:right;color:#127184}
+.page-28 p{position:absolute;right:1em;bottom:360px;text-align:right;color:#127184}
 .page-29{background:url(../img/iali12.jpg) no-repeat;background-size:100% 100%;}
-.page-29 h3{position:absolute;z-index:2;width:100%;text-align:center;color:#eef}
+.page-29 p{position:absolute;z-index:2;width:100%;text-align:center;color:#eef}
 .page-30{background:url(../img/iali76.gif) no-repeat;background-size:100% 100%;}
 
 .page-31{background:url(../img/iali77.jpg) no-repeat;background-size:100% 100%;}
 .page-32{background:url(../img/iali62.jpg) no-repeat;background-size:100% 100%;}
 .page-33{background:url(../img/iali3.jpg) no-repeat;background-size:100% 100%;}
-.page-33 h3{font-size:1.8em;color:#a58545}
+.page-33 p{font-size:1em;color:#a58545}
 .page-34{background:url(../img/iali67.jpg) no-repeat;background-size:100% 100%;}
-.page-34 h3{color:#fff}
+.page-34 p{color:#fff}
 .page-35{background:url(../img/iali8.gif) no-repeat;background-size:100% 100%;}
 
-.page-35 h3{position:absolute;right:10%;top:5%;color:green;z-index:2;font-size:2em}
+.page-35 p{position:absolute;right:10%;top:5%;color:green;z-index:2;font-size:1em}
 .page-36{background:url(../img/iali31.jpg) no-repeat;background-size:100% 100%;}
-.page-36 h3{text-align:right;right:1.5em;color:#eee}
+.page-36 p{text-align:right;right:1em;color:#eee}
 .page-37{background:url(../img/iali49.jpg) no-repeat;background-size:100% 100%;}
 .page-38{background:url(../img/iali21.jpg) no-repeat;background-size:100% 100%;}
 .page-39{background:url(../img/iali2_bg.jpg) repeat;background-size:100% 100%;}
 .page-40{background:url(../img/iali14.jpg) no-repeat;background-size:100% 100%;}
-.page-40 h3{position:absolute;top:1em;right:1em;z-index:2}
+.page-40 p{position:absolute;top:1em;right:1em;z-index:2}
 
 .page-44{background:url(../img/iali0.jpg) no-repeat;background-size:100% 100%;}
 .page-45{background:url(../img/iali18.jpg) no-repeat;background-size:100% 100%;}
 .page-46{background:url(../img/iali57.gif) no-repeat;background-size:100% 100%;}
-.page-46 h3{position:absolute;top:1em;left:50%;margin-left:-40%;padding:0;margin-top:0;width:10em;text-align:left}
-.page-46 h3 span{display:inline-block;width:1em;vertical-align:top}
+.page-46 p{position:absolute;top:1em;left:50%;margin-left:-40%;padding:0;margin-top:0;text-align:left;z-index:1}
+.page-46 p span{display:inline-block;width:1em;vertical-align:top}
 .page-47{background:url(../img/iali58.jpg) no-repeat;background-size:100% 100%;}
-.page-47 h3{position:absolute;top:1em;left:50%;margin-left:-40%;padding:0;margin-top:0;width:10em;text-align:left}
-.page-47 h3 span{display:inline-block;width:1em;vertical-align:top}
+.page-47 p{position:absolute;top:1em;left:50%;margin-left:-40%;padding:0;margin-top:0;text-align:left}
+.page-47 p span{display:inline-block;width:1em;vertical-align:top}
 .page-48{background:url(../img/iali65.jpg) no-repeat;background-size:100% 100%;}
 .page-49{background:url(../img/iali71.jpg) no-repeat;background-size:100% 100%;}
 .page-51{background:url(../img/iali52.jpg) no-repeat;background-size:100% 100%;}
 .page-52{background:url(../img/iali20.jpg) no-repeat;background-size:100% 100%;}
-.page-52 h3{margin:0;padding-top:.8em;font-size:1.6em;color:#4e0f3d}
+.page-52 p{margin:0;padding-top:.8em;font-size:1em;color:#4e0f3d}
 .page-53{background:url(../img/iali68.jpg) no-repeat;background-size:100% 100%;}
 .page-54{background:#d3d2d0 url(../img/319280_bg.jpg) repeat;background-size:100% 100%;}
-.page-54 .center-img{background-image:url(../img/319280.jpg);text-indent:-99999px}
-.page-54 h3{line-height: 1rem;padding-top: 0.5em}
+.page-54 {background:url(../img/319280.jpg) no-repeat ;text-indent:-99999px; background-size:100% 100%;}
+.page-54 p{line-height: 1rem;padding-top: 0.5em}
 .page-55{background:url(../img/14915.jpg) no-repeat;background-size:100% 100%;}
 
 .write-tip{position: fixed;display: block;color: #333;font-size: 16px;bottom: 0.2em;left: 33%;padding: 3px;z-index: 999;background-color: #fff;border: 1px solid #D3D3D3;border-radius: 4px}

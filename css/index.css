@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,.main{
+			height: 100%;
+			position:relative;
+		}
+.swiper-container{
+	height:100%;
+	position:relative;
+}
+.swiper-button-top{
+	height: auto;
+    width: 25px;
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    margin-left: -12px;
+    z-index: 99;
+	-webkit-animation: moveIconUp ease 1.5s both infinite;
+	animation: moveToBottom ease 1.5s both infinite;
+}
+
+@-webkit-keyframes moveToBottom {
+	from { }
+	to { -webkit-transform: translateY(100%); }
+}
+@keyframes moveToBottom {
+	from { }
+	to { -webkit-transform: translateY(100%); }
+}
+@-webkit-keyframes moveIconUp {
+	0% { -webkit-transform: translateY(100%); opacity:0;}
+	50% { -webkit-transform: translateY(0%); opacity:1;}
+	100% { -webkit-transform: translateY(-100%); opacity:0;}
+}
+@keyframes moveIconUp {
+	0% { -webkit-transform: translateY(100%); transform: translateY(100%); opacity:0;}
+	50% { -webkit-transform: translateY(0%); transform: translateY(0%); opacity:1;}
+	100% { -webkit-transform: translateY(-100%); transform: translateY(-100%); opacity:0;}
+}
+.slide1{
+	background:url(../img/01.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.slide2{
+	background:rgb(250,30,98);
+	background-image:none;
+}
+.slide3{
+	background:rgb(250,30,98);
+	background-image:none;
+}
+		
+.slide4{
+	background-color: #F94848;
+			
+}
+.slide5{
+	background-color: #EC5F55;
+}
+
+	
+div.ctr{
+	width:2rem;
+	height:2rem;
+	background:url(../img/music_note_big.png) no-repeat;
+	background-size:100% 100%;
+	border-radius:100%;
+	z-index:9999;
+	position:absolute;
+	right:1rem;
+	top:1rem;
+	-webkit-animation: reverseRotataZ 1.2s linear infinite;
+}
+.to_round{
+	-webkit-animation: reverseRotataZ 1.2s linear infinite;
+}
+@keyframes reverseRotataZ {
+	0%{
+      transform: rotateZ(0deg);
+
+  }
+  50%{
+     transform: rotateZ(180deg);
+  }
+  100%{
+     transform: rotateZ(360deg); 
+  }
+}
+.slide1_top1{
+	background:url(../img/a19.png) no-repeat;
+	background-size:100% 100%;
+	width:50%;
+	height:10%;
+	position:absolute;
+	top:29%;
+	left:50%;
+	-webkit-transform:translateY(-50%) translateX(-50%);
+	
+}
+.slide1_top2{
+	background:url(../img/a18.png) no-repeat;
+	background-size:100% 100%;
+	width:47%;
+	height:10%;
+	position:absolute;
+	top:18%;
+	left:65%;
+	-webkit-transform:translateY(-50%) translateX(-50%);
+	
+}
+.slide1_top3{
+	background:url(../img/a018.png) no-repeat;
+	background-size:100% 100%;
+	width:33%;
+	height:13%;
+	position:absolute;
+	top:18%;
+	left:28%;
+	-webkit-transform:translateY(-50%) translateX(-50%);
+	
+}
+.slide1_center1{
+	width:100%;
+	height:65%;
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translateY(-50%) translateX(-50%);
+	background:url(../img/a012.png) no-repeat;
+	background-size:100% 100%;
+}
+.slide1_center2{
+	width:80%;
+	height:45%;
+	position:absolute;
+	top:55%;
+	left:52%;
+	-webkit-transform:translateY(-50%) translateX(-50%);
+	background:url(../img/a011.png) no-repeat;
+	background-size:100% 100%;
+}
+.slide1_center3{
+	width:60%;
+	height:35%;
+	position:absolute;
+	top:60%;
+	left:52%;
+	-webkit-transform:translateY(-50%) translateX(-50%);
+	background:url(../img/a014.png) no-repeat;
+	background-size:100% 100%;
+}
+.slide1_center4_left{
+	width:25%;
+	height:25%;
+	position:absolute;
+	top:50%;
+	left:30%;
+	-webkit-transform:translateY(-50%) translateX(-50%);
+	background:url(../img/a015.png) no-repeat;
+	background-size:100% 100%;
+}
+.slide1_center4_right{
+	width:25%;
+	height:27%;
+	position:absolute;
+	top:47%;
+	left:54%;
+	background:url(../img/a016.png) no-repeat;
+	background-size:100% 100%;
+	
+}
+.slide1_center5{
+	width:90%;
+	height:15%;
+	position:absolute;
+	top:73%;
+	left:50%;
+	-webkit-transform:translateY(-50%) translateX(-50%);
+	background:url(../img/a017.png) no-repeat;
+	background-size:100% 100%;
+	
+}
+.slide1_center5 span{
+	font-size:1.3rem;
+	color:#000;
+	position:absolute;
+	color:#fff;
+	text-shadow:0px 0px 5px #f0f,0px 0px 10px rgba(255,0,255,0.8),0px 0px 20px rgba(255,0,255,0.8),0px 0px 35px rgba(255,0,255,0.8),0px 0px 55px rgba(255,0,255,0.8);
+}
+.slide1_center5 span:nth-child(1){
+	left:30%;
+	top:15%;
+}
+.slide1_center5 span:nth-child(2){
+	left:60%;
+	top:15%;
+}
+.slide1_center6{
+	width:30%;
+	height:6%;
+	position:absolute;
+	top:75%;
+	left:50%;
+	-webkit-transform:translateY(-50%) translateX(-50%);
+	background:url(../img/a019.png) no-repeat;
+	background-size:100% 100%;	
+}
+
+.slide2_top{
+	background:url(../img/b1.jpg) no-repeat;
+	position:absolute;
+	width:90%;
+	left:5%;
+	top:10%;
+	height:35%;
+	background-size:100% 100%;
+	border-radius:15px;
+	}
+.slide2_left{
+	background:url(../img/b2.png) no-repeat;
+	position:absolute;
+	width:45%;
+	left:5%;
+	top:50%;
+	height:35%;
+	background-size:100% 100%;
+	
+	}
+.slide2_right1{
+	background:url(../img/b1.jpg) no-repeat;
+	position:absolute;
+	width:45%;
+	left:50%;
+	top:48%;
+	height:17%;
+	background-size:100% 100%;
+	border-radius:10px;
+}
+.slide2_right2{
+	background-image:none;
+	position:absolute;
+	width:50%;
+	left:49%;
+	top:67%;
+	height:45%;
+	background-size:100% 100%;
+	font-size:0.9rem;
+	
+}
+.slide2_right2 p{
+	margin-bottom:15px;
+	color: #ccc; 
+	text-shadow: -1px -1px #333, 1px 1px #fff;
+	
+}
+
+.slide3_center{
+	background:url(../img/303.png) no-repeat;
+	background-size:100% 100%;
+	height:30%;
+	width:100%;
+	position:absolute;
+	top:50%;
+	left:0;
+	-webkit-transform:translateY(-50%);
+}
+.slide3_center p{
+	position:absolute;
+	left:30%;
+	font-size:1rem;
+	-webkit-transform:rotateZ(-10deg);
+}
+.slide3_center p:nth-child(1){
+	top:40%;
+	}
+.slide3_center p:nth-child(2){
+	top:55%;
+	}
+.slide3_top{
+	background:url(../img/a2.jpg) no-repeat;
+	background-size:100% 100%;
+	height:40%;
+	width:100%;
+	position:absolute;
+	top:10%;
+	left:-30%;
+	
+}
+.slide3_bottom{
+	background:url(../img/a2.jpg) no-repeat;
+	background-size:100% 100%;
+	height:40%;
+	width:100%;
+	position:absolute;
+	bottom:10%;
+	right:-30%;
+	
+}
+.slide3_left{
+	background:url(../img/305.png) no-repeat;
+	background-size:100% 100%;
+	height:13%;
+	width:20%;
+	position:absolute;
+	top:47%;
+	left:5%;
+	
+}
